@@ -1,4 +1,4 @@
-# 💜 OptiFii Rewards — Flutter Voucher & Rewards Marketplace
+# OptiFii Rewards — Flutter Voucher & Rewards Marketplace
 
 OptiFii Rewards is a pixel-perfect, highly responsive Flutter mobile application designed to deliver an premium voucher discovery, purchase, checkout, and gifting experience. 
 
@@ -103,7 +103,7 @@ lib/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to run the application locally or install the pre-compiled builds.
 
@@ -131,7 +131,7 @@ flutter run
 
 ---
 
-## 📦 Download and Install Android APK
+## Download and Install Android APK
 
 We have provided built artifacts within the repository. You can retrieve them directly:
 
