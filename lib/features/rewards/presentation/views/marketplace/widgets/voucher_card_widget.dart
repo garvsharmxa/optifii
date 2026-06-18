@@ -44,15 +44,17 @@ class VoucherCardWidget extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             // Inner brand-colored logo container
-            AspectRatio(
-              aspectRatio: 1.0,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: themeColor,
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: Center(
-                  child: BrandLogoPresenter(brandId: brand.id, scale: 0.95),
+            Container(
+              height: 105,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                color: themeColor,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Center(
+                child: FittedBox(
+                  fit: BoxFit.contain,
+                  child: BrandLogoPresenter(brandId: brand.id, scale: 0.85),
                 ),
               ),
             ),
